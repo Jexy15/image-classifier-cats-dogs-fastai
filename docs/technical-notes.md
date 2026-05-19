@@ -1,7 +1,7 @@
 ## Technical Notes (Derived from TEORIA.pdf)
 
 ### Scope and context
-These notes summarize core machine learning concepts used in a simple image classification workflow (example: cats vs dogs). The focus is on model training, transfer learning, and evaluation metrics that guide performance. Full reference: [docs/TEORIA.pdf](docs/TEORIA.pdf).
+These notes summarize core machine learning concepts used in a simple image classification workflow (example: cats vs dogs). The focus is on model training, transfer learning, and evaluation metrics that guide performance. Full reference: [docs/TEORIA.pdf](TEORIA.pdf).
 
 ### Core concepts
 **Model**
