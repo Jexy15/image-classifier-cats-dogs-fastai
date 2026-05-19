@@ -77,5 +77,3 @@ These notes summarize core machine learning concepts used in a simple image clas
 - Training decisions (transfer learning choice, SGD, validation strategy)
 
 ---
-
-Note: These notes are based on OCR extraction of the PDF, which can introduce minor noise. If needed, I can refine this with a clean text version or manual corrections.
