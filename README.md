@@ -79,6 +79,22 @@ This repo is ready for Spaces.
    - `model/cat_dog_classifier.pkl` (exported by running `python scripts/train.py`)
 4. The Space will build automatically and serve the demo.
 
+## Key Learnings
+- A neural network is a layered function approximator; deep learning stacks many layers to learn features directly from data.
+- Weights encode learned parameters; the loss function measures prediction error, and a metric summarizes model quality.
+- SGD updates weights using mini-batch gradients to minimize loss efficiently.
+- Overfitting happens when the model memorizes training data and fails to generalize to new images.
+
+## Limitations
+- Limited testing on real-world images.
+- No systematic error analysis.
+- Performance not verified under extreme conditions (blur, occlusions, low light).
+
+## Future Improvements
+- Expand evaluation with a larger, diverse real-world test set.
+- Run a structured error analysis (confusion cases, failure modes, per-breed breakdown).
+- Add robust data augmentation or fine-tuning to improve performance on challenging conditions.
+
 ## Demo
 Deployed version: https://huggingface.co/spaces/Jexy15/cats-vs-dogs-fastai
 
